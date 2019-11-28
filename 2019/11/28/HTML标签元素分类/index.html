@@ -175,8 +175,15 @@
 <h6 id="按照是否换行特征分类"><a href="#按照是否换行特征分类" class="headerlink" title="按照是否换行特征分类"></a>按照是否换行特征分类</h6><ul>
 <li>块级元素  </li>
 </ul>
-<p>1.每个块级元素独占一行，每个块级元素都会从新的一行开始，从上到下排布。<br>2.块级元素可以直接控制宽度、高度以及盒子模型的相关css属性。<br>3.在不设置宽度的情况下，块级元素的宽度是他父级元素内容的宽度。<br>4.在不设置高度的情况下，块级元素的高度是他本身内容的高度。<br>常见的块级元素有：  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 行内元素  </span><br><span class="line">1.行内元素之间从左到右显示在一行。  </span><br><span class="line">2.行内元素不能直接控制宽度、高度以及盒子模型的相关css属性，其宽高是由内容本身的大小决定的，但是可以设置内外边距的水平方向的值。也就是说对于内联元素的```margin```和```padding```，只有```margin-left```/```margin-right```和```padding-left```/```padding-right```是有效的，但是竖直方向的```margin```和```padding```无效果。  </span><br><span class="line">3.行内块级元素只能容纳文本或者其他行内元素（不要在行内元素中嵌套块级元素）。  </span><br><span class="line">常见的行内元素有：  </span><br><span class="line">```&lt;a&gt;&lt;/a&gt;```、```&lt;span&gt;&lt;/span&gt;```、```&lt;b&gt;&lt;/b&gt;```等</span><br><span class="line">- 行内块级元素（替换元素）  </span><br><span class="line">1.浏览器根据其标签的元素与属性来判断显示的具体内容  </span><br><span class="line">2.在同一行显示  </span><br><span class="line">3.可以直接控制宽高  </span><br><span class="line">常见的行内块级元素有：  </span><br><span class="line">```&lt;img&gt;```、```&lt;input&gt;```、```&lt;textarea&gt;</span><br></pre></td></tr></table></figure>
+<p>1.每个块级元素独占一行，每个块级元素都会从新的一行开始，从上到下排布。<br>2.块级元素可以直接控制宽度、高度以及盒子模型的相关css属性。<br>3.在不设置宽度的情况下，块级元素的宽度是他父级元素内容的宽度。<br>4.在不设置高度的情况下，块级元素的高度是他本身内容的高度。<br>常见的块级元素有:<code>&lt;div&gt;&lt;/div&gt;</code>、<code>&lt;p&gt;&lt;/p&gt;</code>、<code>&lt;hx&gt;&lt;/hx&gt;</code>、<code>&lt;hr/&gt;</code>、<code>&lt;table&gt;&lt;/table&gt;</code>、<code>&lt;form&gt;&lt;/form&gt;</code>、<code>&lt;ol&gt;&lt;/ol&gt;</code>等</p>
+<ul>
+<li>行内元素  </li>
+</ul>
+<p>1.行内元素之间从左到右显示在一行。<br>2.行内元素不能直接控制宽度、高度以及盒子模型的相关css属性，其宽高是由内容本身的大小决定的，但是可以设置内外边距的水平方向的值。也就是说对于内联元素的<code>margin</code>和<code>padding</code>，只有<code>margin-left</code>/<code>margin-right</code>和<code>padding-left</code>/<code>padding-right</code>是有效的，但是竖直方向的<code>margin</code>和<code>padding</code>无效果。<br>3.行内块级元素只能容纳文本或者其他行内元素（不要在行内元素中嵌套块级元素）。<br>常见的行内元素有:<code>&lt;a&gt;&lt;/a&gt;</code>、<code>&lt;span&gt;&lt;/span&gt;</code>、<code>&lt;b&gt;&lt;/b&gt;</code>等</p>
+<ul>
+<li>行内块级元素（替换元素）  </li>
+</ul>
+<p>1.浏览器根据其标签的元素与属性来判断显示的具体内容<br>2.在同一行显示<br>3.可以直接控制宽高<br>常见的行内块级元素有:<code>&lt;img&gt;</code>、<code>&lt;input&gt;</code>、<code>&lt;textarea&gt;</code></p>
 
     </div>
 
